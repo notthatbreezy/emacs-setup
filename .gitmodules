@@ -1,0 +1,9 @@
+[submodule "js2-mode"]
+	path = js2-mode
+	url = git@github.com:notthatbreezy/js2-mode.git
+[submodule "emacs-for-python"]
+	path = emacs-for-python
+	url = git@github.com:notthatbreezy/emacs-for-python.git
+[submodule "yasnippet"]
+	path = yasnippet
+	url = git@github.com:notthatbreezy/yasnippet.git
