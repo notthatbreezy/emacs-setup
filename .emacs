@@ -13,6 +13,10 @@
  ;; If there is more than one, they won't work right.
  )
 
+;; Fonts
+(set-frame-font "Source Code Pro")
+(set-face-attribute 'default nil :height 90)
+
 (require 'package)
 (add-to-list 'package-archives
     '("marmalade" .
@@ -26,7 +30,6 @@
 (require 'epy-completion)
 (require 'epy-bindings)
 (require 'epy-nose)
-
 (epy-setup-checker "pyflakes %f")
 
 (global-linum-mode 1)
